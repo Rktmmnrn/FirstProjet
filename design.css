@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.section-1 {
+    background: url(Assets/Background.png) center no-repeat;
+    background-size: cover;
+    padding: 0px 3cm;
+}
+.section-1 nav {
+    height: 2cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.section-1 nav a {
+    margin: 0 10px;
+}
+.section-1 nav #logo {
+    width: 3cm;
+}
+.section-1 .afternav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1 .afternav p {
+    font-size: 0.85em;
+    color: #000000d8;
+}
+.section-1 .afternav h1 {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+
+.section-2 {
+    padding: 1.5cm 3cm;
+}
+.section-2 p {
+    font-size: 0.85em;
+    color: #000000e0;
+}
+.section-2 .aft-sect2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-2 .aft-sect2 h2 {
+    font-size: 1.7em;
+    margin: 10px 0;
+}
+.section-2 #custom-img {
+    width: 40%;
+}
+.section-2 footer {
+    margin-top: 1.5cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
